@@ -50,8 +50,8 @@
 
 ## Gaps
 
-- Incident route intentionally absent.
-- External repo allowlist absent (GAP-006).
+- Incident route intentionally absent (GAP-007).
+- External repo allowlist empty by PM confirmation (2026-08-07); re-open when first product remote exists.
 
 ## Children
 

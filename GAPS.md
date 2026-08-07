@@ -18,14 +18,12 @@
 
 | ID | Area | Description | Status | Next action | Related path |
 | --- | --- | --- | --- | --- | --- |
-| GAP-001 | products | Inventário de produtos/repos do ecossistema vazio | open | PM lista nomes/remotes quando existirem | `documentation/products/` |
-| GAP-002 | rules | Regras canônicas do RPG ainda não documentadas | open | PM / intake de regras compartilhadas | `documentation/rules/` |
+| GAP-002 | rules | Regras canônicas do RPG ainda não documentadas | open | PM / intake de regras compartilhadas (`clarify-with-pm`) | `documentation/rules/` |
 | GAP-003 | systems | Sistemas do universo/mecânicas sem conteúdo | open | Preencher à medida que o design fechar | `documentation/systems/` |
 | GAP-004 | services | Serviços compartilhados (ex. API Jogador) não inventariados | open | Onboard quando houver contrato real | `documentation/services/` |
 | GAP-005 | glossary | Linguagem ubíqua / glossário vazio | open | Termos só com definição PM-aprovada | `documentation/ubiquitous-language/` |
-| GAP-006 | remotes | Allowlist de paths/remotes de código externos ausente | open | Documentar quando repos existirem | `GAPS.md` / products |
 | GAP-007 | incidents | Rotas de incidente/produção fora do MVP | open | Só quando houver operação real | Process Caller gap |
-| GAP-008 | stack | Stack/CI/deploy não vivem neste repo; fatos por produto ausentes | open | Por product entry, não inventar | `documentation/products/` |
+| GAP-008 | stack | Stack/CI/deploy não vivem neste repo; fatos por produto ausentes | open | Quando existir product entry | `documentation/products/` |
 | GAP-009 | decisions | Decision Log ainda sem entradas | open | Usar `record-decision` ao fechar escolhas | `documentation/decisions/` |
 
 ## In progress
@@ -44,17 +42,18 @@
 
 | Field | Value |
 | --- | --- |
-| When | 2026-08-07 — audit + clarify-with-pm default |
+| When | 2026-08-07 — audit + clarify default + products empty confirmed |
 | Branch | `develop` |
 | Active task | none |
-| Summary | Full context-repo audit (index/doc/language; code skipped). Fixed process template index contract. Language split unchanged. New default skill clarify-with-pm: multi-choice + free-text for all PM pending/requirements alignment. Domain still empty (GAP-001…009 open). |
-| Resume with | Read README → Process Caller → GAPS.md → clarify-with-pm for which GAP to fill first |
+| Summary | Audit ok; clarify-with-pm is default. PM confirmed zero products and empty external remotes allowlist (GAP-001/006 archived). Remaining open: GAP-002…005, 007…009. |
+| Resume with | Read README → Process Caller → GAPS.md → clarify-with-pm next domain GAP (rules/systems/glossary/…) |
 
 ## Archive (done)
 
 | ID | Area | Description | Closed |
 | --- | --- | --- | --- |
-| — | — | — | — |
+| GAP-001 | products | PM confirmou 0 produtos (só repo de contexto); inventário vazio consciente | 2026-08-07 |
+| GAP-006 | remotes | PM confirmou allowlist de remotes/paths externos vazia | 2026-08-07 |
 
 ## Gaps (meta)
 

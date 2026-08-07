@@ -58,10 +58,10 @@ This repository is the **library agents use to stay aligned** with the PM (produ
 
 ## Gaps
 
-- Product rules, systems, services, glossary entries, and product/repo inventory are **empty by design** until the PM fills them. See [`GAPS.md`](GAPS.md).
+- Product/repo inventory and external remotes allowlist: **empty by PM confirmation** (2026-08-07); re-open when first product exists. See [`GAPS.md`](GAPS.md).
+- Canonical rules, systems, services, glossary, and decisions still empty until the PM fills them.
 - No production/incident routes in MVP.
-- No allowlist of external code remotes yet.
-- No stack/CI/deploy facts in this repo (code lives elsewhere).
+- No stack/CI/deploy facts until product entries exist (code lives elsewhere).
 
 ## Children
 

@@ -15,9 +15,9 @@
 1. Walk indexed directories from root README.
 2. For each `README.md`: confirm five sections; Parent link correct; Inventory paths exist; Children not inventing files.
 3. Ensure Process Caller route table is **not** duplicated in adapters.
-4. Fix or open tasks/GAPS for broken links.
-5. No domain invention while repairing structure.
-
+4. For `documentation/rules/`: inventory/Children must match area files on disk; `_template.md` may appear in inventory; cross-link *content* is **doc-auditor** responsibility (this agent checks path existence only).
+5. Fix or open tasks/GAPS for broken links.
+6. No domain invention while repairing structure.
 ## Gaps
 
 - None structural at healthy baseline; drift is the risk.

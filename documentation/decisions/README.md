@@ -9,12 +9,14 @@
 | Entry | When to open | Path |
 | --- | --- | --- |
 | Template | Creating a new decision | [_template.md](_template.md) |
+| DECISION-0001 | Rules organization: one file per area | [0001-rules-one-file-per-area.md](0001-rules-one-file-per-area.md) |
 
 ## Gaps
 
-- No decisions recorded yet (GAP-009).
+- Decision log started (GAP-009 partially addressed; more decisions as they close).
 - Closed decisions do not reopen without supersede + PM intent.
 
 ## Children
 
 - [_template.md](_template.md)
+- [0001-rules-one-file-per-area.md](0001-rules-one-file-per-area.md)

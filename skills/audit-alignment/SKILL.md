@@ -7,9 +7,9 @@
 | Axis | Agent | Focus |
 | --- | --- | --- |
 | Code | `agents/code-reviewer.md` | External repo diffs vs task + known docs |
-| Documentation | `agents/doc-auditor.md` | Internal doc consistency, honest gaps |
+| Documentation | `agents/doc-auditor.md` | Internal doc consistency, honest gaps, **rules area template + cross-ref graph** |
 | Language | `agents/language-auditor.md` | Glossary vs usage |
-| Index | `agents/index-auditor.md` | Index contract and graph |
+| Index | `agents/index-auditor.md` | Index contract and graph (incl. rules inventory paths) |
 
 ## Steps
 

@@ -18,13 +18,13 @@
 
 | ID | Area | Description | Status | Next action | Related path |
 | --- | --- | --- | --- | --- | --- |
-| GAP-002 | rules | Regras canônicas do RPG ainda não documentadas | open | PM / intake de regras compartilhadas (`clarify-with-pm`) | `documentation/rules/` |
+| GAP-002 | rules | Conteúdo de regras canónicas ainda ausente (padrão um-ficheiro-por-área já definido) | open | PM escolhe a 1ª área e fornece factos; copiar `_template.md` | `documentation/rules/` |
 | GAP-003 | systems | Sistemas do universo/mecânicas sem conteúdo | open | Preencher à medida que o design fechar | `documentation/systems/` |
 | GAP-004 | services | Serviços compartilhados (ex. API Jogador) não inventariados | open | Onboard quando houver contrato real | `documentation/services/` |
 | GAP-005 | glossary | Linguagem ubíqua / glossário vazio | open | Termos só com definição PM-aprovada | `documentation/ubiquitous-language/` |
 | GAP-007 | incidents | Rotas de incidente/produção fora do MVP | open | Só quando houver operação real | Process Caller gap |
 | GAP-008 | stack | Stack/CI/deploy não vivem neste repo; fatos por produto ausentes | open | Quando existir product entry | `documentation/products/` |
-| GAP-009 | decisions | Decision Log ainda sem entradas | open | Usar `record-decision` ao fechar escolhas | `documentation/decisions/` |
+| GAP-009 | decisions | Decision log iniciado (0001); mais entradas quando houver escolhas | open | `record-decision` ao fechar novas escolhas | `documentation/decisions/` |
 
 ## In progress
 
@@ -42,11 +42,11 @@
 
 | Field | Value |
 | --- | --- |
-| When | 2026-08-07 — audit + clarify default + products empty confirmed |
+| When | 2026-08-07 — rules structure pattern |
 | Branch | `develop` |
 | Active task | none |
-| Summary | Audit ok; clarify-with-pm is default. PM confirmed zero products and empty external remotes allowlist (GAP-001/006 archived). Remaining open: GAP-002…005, 007…009. |
-| Resume with | Read README → Process Caller → GAPS.md → clarify-with-pm next domain GAP (rules/systems/glossary/…) |
+| Summary | Rules bootstrap: DECISION-0001 one-file-per-area, `_template.md`, inventory pattern, doc-auditor rules pass. No rule content yet (GAP-002). Products/remotes empty confirmed. clarify-with-pm default. |
+| Resume with | clarify-with-pm: first rules area slug + any known facts; copy template → fill without inventing |
 
 ## Archive (done)
 

@@ -2,7 +2,7 @@
 
 **Role:** Role definitions for specialist agents; Process Caller is the default entry after root README.
 
-**Language:** Agent role files are **English**. Speak to the PM in standard Brazilian Portuguese.
+**Language:** Agent role files are **English**. Speak to the PM in **PT-BR** (`você`, no **ti**, no PT-PT chat vocabulary).
 
 **Parent:** [../README.md](../README.md)
 

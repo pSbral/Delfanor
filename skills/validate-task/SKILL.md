@@ -8,7 +8,7 @@
 2. List unknowns as `INFORMAÇÃO AUSENTE` — do not invent.
 3. If blocked on PM input, use skill `clarify-with-pm` (multi-choice + free-text; one topic per block).
 4. On PM confirmation, create `.activities/tasks/<task-id>/` from `_template`.
-5. Fill `overview.md` (English structure labels OK; domain narrative in Portuguese as needed).
+5. Fill `overview.md` (English structure labels OK; domain narrative in **PT-BR** as needed).
 6. Link related documentation paths if they exist; otherwise note gaps.
 7. Update `.activities/tasks/README.md` inventory.
 8. Add/update `GAPS.md` if the task depends on open gaps.

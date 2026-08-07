@@ -11,6 +11,7 @@
 | Entry | When to open | Path |
 | --- | --- | --- |
 | Process template | Authoring a new thin process | [_template/README.md](_template/README.md) |
+| PM communication | PT-BR chat register + clarify default | [pm-communication/README.md](pm-communication/README.md) |
 
 ## Gaps
 
@@ -20,3 +21,4 @@
 ## Children
 
 - [_template/](_template/)
+- [pm-communication/](pm-communication/)

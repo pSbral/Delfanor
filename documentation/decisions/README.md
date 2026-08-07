@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | Template | Creating a new decision | [_template.md](_template.md) |
 | DECISION-0001 | Rules organization: one file per area | [0001-rules-one-file-per-area.md](0001-rules-one-file-per-area.md) |
+| DECISION-0002 | Language split: EN machinery, PT-BR domain/chat | [0002-language-split-ptbr.md](0002-language-split-ptbr.md) |
 
 ## Gaps
 
@@ -20,3 +21,4 @@
 
 - [_template.md](_template.md)
 - [0001-rules-one-file-per-area.md](0001-rules-one-file-per-area.md)
+- [0002-language-split-ptbr.md](0002-language-split-ptbr.md)

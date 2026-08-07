@@ -15,18 +15,18 @@ Keep alignment cheap and explicit: the PM chooses from **suggested options** or 
 3. Mark a **recommended** option when the agent has a justified preference (one sentence why).
 4. **Always** include a free-text path: label it clearly, e.g. **Outra / resposta livre:** (or runtime “Other”).
 5. Options may be multi-select when several answers can be true at once (say so explicitly).
-6. Chat language with the PM: **standard Brazilian Portuguese** (`você`, correct register). Skill body stays English.
+6. **PM-facing text is PT-BR only** (see `processes/pm-communication/`): **você**, natural Brazilian wording; never default **ti**; no PT-PT chat vocabulary (*ficheiro*, *sítio*, *factos*, *canónico*, *secção*, *registar*). Skill body stays English.
 7. Do **not** invent domain facts inside options. If an option is a hypothesis, label it as suggestion, not as established truth.
 8. After the PM answers: apply the choice, update docs/task/`GAPS.md` as needed, then continue. Do not re-ask the same topic unless the answer was incomplete.
 
 ## Format (markdown fallback — any runtime)
 
-Use when the IDE has no dedicated multi-choice widget:
+Use when the IDE has no dedicated multi-choice widget. Labels and options in **PT-BR**:
 
 ```text
 ### <Título do tópico — uma decisão>
 
-Contexto em 1–3 frases (só factos ou INFORMAÇÃO AUSENTE).
+Contexto em 1–3 frases (só fatos ou INFORMAÇÃO AUSENTE).
 
 - **A)** <opção> — <implicação curta>
 - **B)** <opção> — <implicação curta>  ← recomendado: <motivo em uma frase>
@@ -65,4 +65,5 @@ When the environment provides a multi-choice / multi-select control (e.g. struct
 
 - Dump a questionnaire of many topics at once without sequencing.
 - Offer only free-text with zero suggestions when options are knowable.
-- Use informal register (“ti”) or invent domain fills to pad options.
+- Use **ti** as address, PT-PT wording, or invent domain fills to pad options.
+- Write chat like European Portuguese or with odd calques the PM already rejected (e.g. *sítio* for “ready/in place”).

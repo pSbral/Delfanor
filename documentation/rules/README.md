@@ -2,7 +2,7 @@
 
 **Role:** Shared rules that apply regardless of product or play medium.
 
-**Language:** Domain prose in **Portuguese**; structural labels on this index may stay English. Terminology unrestricted.
+**Language:** Domain prose in **PT-BR**; structural labels on this index may stay English. Terminology unrestricted.
 
 **Parent:** [../README.md](../README.md)
 
@@ -42,7 +42,7 @@ When touching rules:
 
 ## Gaps
 
-- **INFORMAÇÃO AUSENTE:** nenhuma área canónica preenchida ainda (GAP-002).
+- **INFORMAÇÃO AUSENTE:** nenhuma área canônica preenchida ainda (GAP-002).
 - Estrutura e padrão existem; conteúdo de regras ainda não.
 - Do not invent rules or area files “to look complete”.
 

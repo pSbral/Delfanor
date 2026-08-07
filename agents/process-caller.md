@@ -12,7 +12,7 @@
 - Route table below is **canonical**; adapters must **point**, not copy.
 - After structural repo changes → `maintain-repo-index`.
 - Session end / “vou parar” / model switch → `handoff`.
-- Language: this file and all agent machinery stay **English**; domain docs **Portuguese**; reply to the PM in standard Brazilian Portuguese.
+- Language: agent machinery **English**; domain docs + PM chat **PT-BR** (DECISION-0002). Never address the PM as **ti**; no PT-PT chat vocabulary. Process: `processes/pm-communication/`.
 - **PM clarification default:** any pending/requirement alignment with the PM → skill `clarify-with-pm` (multi-choice suggestions + free-text; one topic per block).
 
 ## Route table

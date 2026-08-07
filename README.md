@@ -16,10 +16,10 @@ This repository is the **library agents use to stay aligned** with the PM (produ
 
 1. **Never invent.** Missing facts = `INFORMAÇÃO AUSENTE` in domain docs, or `INFORMATION ABSENT` in English structural files. Do not invent rules, services, products, APIs, glossary terms, or decisions.
 2. **No credentials** in this repo (secrets, tokens, passwords, connection strings).
-3. **Language (hard split — performance + PM UX):**
+3. **Language (hard split — performance + PM UX)** — see [DECISION-0002](documentation/decisions/0002-language-split-ptbr.md) and process [`processes/pm-communication/`](processes/pm-communication/):
    - **English only** for agent machinery: `agents/`, `skills/`, `processes/`, `adapters/`, root instructional files (`README.md`, `AGENTS.md`, skill/agent bodies, route tables, index contracts). Models perform better on English instructions; keep that layer English.
-   - **Portuguese** for **domain documentation** under `documentation/` (rules, systems, services, products, decisions, glossary prose) and for domain notes in `GAPS.md` / task overviews as needed — so the PM has a usable source of truth for an authorial RPG and agents can mirror how the PM speaks about the domain.
-   - **Chat with the PM:** standard Brazilian Portuguese, correct register (e.g. **você**). Do not use informal second-person **ti**, slang abuse, or broken register. Be clear and direct.
+   - **Brazilian Portuguese (PT-BR)** for **domain documentation** under `documentation/` and for domain notes in `GAPS.md` / task overviews — usable source of truth for the PM’s authorial RPG.
+   - **Chat with the PM:** always **PT-BR**, clear and direct, address as **você**. **Forbidden defaults:** second-person **ti/te/tua** as address; European Portuguese (PT-PT) vocabulary/register (e.g. *ficheiro*, *factos*, *canónico*, *secção*, *registar*, *sítio* meaning “place/state”). Use natural BR wording (*arquivo*, *fatos*, *canônico*, *seção*, *registrar*, *pronto/no lugar*).
    - **Domain terminology is unrestricted** (English, Portuguese, or other languages as the domain requires). Do not translate established domain terms only for natural-language consistency.
 4. **Pull, don't push.** Load the smallest context: this README → Process Caller → skills index → only the docs/skills needed for the classified route.
 5. **Closed scope.** Do not reopen closed decisions or expand task scope without explicit PM reopening.

@@ -2,7 +2,7 @@
 
 **Role:** Reality — how the Delfanor ecosystem **is** (rules, systems, services, products, decisions, language). Not agent procedure (that is `processes/` + `skills/`).
 
-**Language:** Domain content here is written in **Portuguese** (terminology unrestricted). Agent machinery stays English elsewhere.
+**Language:** Domain content here is written in **Brazilian Portuguese (PT-BR)** (terminology unrestricted). Agent machinery stays English elsewhere.
 
 **Parent:** [../README.md](../README.md)
 

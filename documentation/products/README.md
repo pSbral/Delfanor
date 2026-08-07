@@ -8,7 +8,7 @@
 
 | Entry | When to open | Path |
 | --- | --- | --- |
-| — | Nenhum produto registado | — |
+| — | Nenhum produto registrado | — |
 
 ## Estado confirmado pelo PM
 

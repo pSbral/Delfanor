@@ -12,13 +12,13 @@
 - **Update status** when progress happens: `open` | `in_progress` | `blocked` | `done`.
 - **Move `done` rows** to the Archive section (keep short history) or delete if noise.
 - **Handoff** must reconcile this file with folder-level Gaps sections and active task overviews.
-- Domain notes in this file may be **Portuguese**; structural labels stay **English**.
+- Domain notes in this file may be **PT-BR**; structural labels stay **English**.
 
 ## Open
 
 | ID | Area | Description | Status | Next action | Related path |
 | --- | --- | --- | --- | --- | --- |
-| GAP-002 | rules | Conteúdo de regras canónicas ainda ausente (padrão um-ficheiro-por-área já definido) | open | PM escolhe a 1ª área e fornece factos; copiar `_template.md` | `documentation/rules/` |
+| GAP-002 | rules | Conteúdo de regras canônicas ainda ausente (padrão um-arquivo-por-área já definido) | open | PM escolhe a 1ª área e fornece fatos; copiar `_template.md` | `documentation/rules/` |
 | GAP-003 | systems | Sistemas do universo/mecânicas sem conteúdo | open | Preencher à medida que o design fechar | `documentation/systems/` |
 | GAP-004 | services | Serviços compartilhados (ex. API Jogador) não inventariados | open | Onboard quando houver contrato real | `documentation/services/` |
 | GAP-005 | glossary | Linguagem ubíqua / glossário vazio | open | Termos só com definição PM-aprovada | `documentation/ubiquitous-language/` |
@@ -42,11 +42,11 @@
 
 | Field | Value |
 | --- | --- |
-| When | 2026-08-07 — rules structure pattern |
+| When | 2026-08-07 — PT-BR contract + full push |
 | Branch | `develop` |
 | Active task | none |
-| Summary | Rules bootstrap: DECISION-0001 one-file-per-area, `_template.md`, inventory pattern, doc-auditor rules pass. No rule content yet (GAP-002). Products/remotes empty confirmed. clarify-with-pm default. |
-| Resume with | clarify-with-pm: first rules area slug + any known facts; copy template → fill without inventing |
+| Summary | Feedback applied: EN agent machinery; PT-BR domain+chat; no ti; no PT-PT leakage; clarify-with-pm default; process pm-communication; DECISION-0001/0002; rules structure only; products/remotes empty. GAP-002…005,007…009 open. |
+| Resume with | README → Process Caller → GAPS.md → clarify-with-pm next domain fill |
 
 ## Archive (done)
 

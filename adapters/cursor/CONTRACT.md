@@ -14,7 +14,7 @@
 6. Never invent domain facts; no credentials.  
 7. Git: commit OK on this context repo (`develop`); external code → branch + commit; no force-push to product defaults.  
 8. Structural edits → `maintain-repo-index`.  
-9. Language: agent machinery in **English**; domain docs in **Portuguese**; PM chat in standard Brazilian Portuguese (`você`, correct register).  
+9. Language: agent machinery **English**; domain docs + PM chat **PT-BR** (`você`; no **ti**; no PT-PT chat vocabulary). See `processes/pm-communication/` and DECISION-0002.  
 10. PM clarification / requirements alignment → skill `clarify-with-pm` (multi-choice suggestions + free-text; one topic per block). Use runtime multi-choice UI when available.  
 
 ## Must not
@@ -23,6 +23,7 @@
 - Auto-create tasks from raw paste.  
 - Infer products/rules from deleted trees, old remotes, or non-canonical history.
 - Dump open multi-topic questionnaires when structured multi-choice is possible.
+- Address the PM as **ti** or write PM-facing text in European Portuguese.
 
 ## Optional Cursor wiring
 

@@ -13,16 +13,18 @@
 - After structural repo changes → `maintain-repo-index`.
 - Session end / “vou parar” / model switch → `handoff`.
 - Language: this file and all agent machinery stay **English**; domain docs **Portuguese**; reply to the PM in standard Brazilian Portuguese.
+- **PM clarification default:** any pending/requirement alignment with the PM → skill `clarify-with-pm` (multi-choice suggestions + free-text; one topic per block).
 
 ## Route table
 
 | Route | When | First pull | Then |
 | --- | --- | --- | --- |
-| Resume / continue | PM cites task, “continua”, “retomar” | `GAPS.md` + `.activities/tasks/<id>/overview.md` | Skill for remaining work |
+| Resume / continue | PM cites task, “continua”, “retomar” | `GAPS.md` + `.activities/tasks/<id>/overview.md` | Skill for remaining work; `clarify-with-pm` if blocked |
+| Clarify / align requirements | Pending gaps, priority, scope, continuous sync with PM | Minimal docs for the topic | **`clarify-with-pm` (default UX)** |
 | Why did we decide X? | Rationale / closed choice | `documentation/decisions/` then rules/systems | `record-decision` if new decision |
 | Edit canonical rules / systems | Shared RPG truth changes | `documentation/rules/` or `systems/` + glossary | `apply-ubiquitous-language`; `doc-auditor` |
 | Implement feature / service | Work in **external** code repo | Task overview + product/service doc | Implement on branch; `finalize-change`; `code-reviewer` |
-| Onboard product / module | New game, tool, or shared service | `documentation/products/` or `services/` | Fill inventory honestly; `maintain-repo-index` |
+| Onboard product / module | New game, tool, or shared service | `documentation/products/` or `services/` | Fill inventory honestly; `maintain-repo-index`; `clarify-with-pm` for unknowns |
 | Review / audit (heavy) | Alignment check | Scope (paths/repos) from PM | `audit-alignment` → code / doc / language / index agents |
 | Maintain indexes / adapters | Tree, README inventory, adapter drift | `skills/maintain-repo-index` | Run skill fully |
 | Raw demand intake | Unstructured paste, no task folder | Do **not** create folders | Offer `validate-task` only if PM confirms |

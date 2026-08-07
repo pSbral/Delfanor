@@ -44,11 +44,11 @@
 
 | Field | Value |
 | --- | --- |
-| When | 2026-08-07 — history reset + language policy |
+| When | 2026-08-07 — audit + clarify-with-pm default |
 | Branch | `develop` |
 | Active task | none |
-| Summary | Git history destroyed and rewritten as a single fresh commit so agents never load legacy product history. Language split locked: agents/skills/processes/adapters in English; domain docs in Portuguese; PM chat in standard Brazilian Portuguese. Domain still empty (GAP-001…009 open). |
-| Resume with | Read README → Process Caller → this file → PM priority among GAP-001…009 (fill domain; do not invent) |
+| Summary | Full context-repo audit (index/doc/language; code skipped). Fixed process template index contract. Language split unchanged. New default skill clarify-with-pm: multi-choice + free-text for all PM pending/requirements alignment. Domain still empty (GAP-001…009 open). |
+| Resume with | Read README → Process Caller → GAPS.md → clarify-with-pm for which GAP to fill first |
 
 ## Archive (done)
 

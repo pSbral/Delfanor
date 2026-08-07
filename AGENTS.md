@@ -12,3 +12,5 @@ Thin entry for IDE agents (Cursor Composer, etc.). **Not** a second process manu
 Do **not** invent domain facts. Do **not** duplicate the Process Caller route table here.
 
 **Language:** agent/skill/process files are English; domain documentation is Portuguese; speak to the PM in standard Brazilian Portuguese.
+
+**PM alignment:** pending clarification and continuous requirements sync use skill [`skills/clarify-with-pm/SKILL.md`](skills/clarify-with-pm/SKILL.md) by default (multi-choice + free-text).

@@ -13,11 +13,12 @@
 
 ## Steps
 
-1. Agree scope with PM (paths, repos, “whole context repo”).
+1. Agree scope with PM (paths, repos, “whole context repo”) via `clarify-with-pm` if scope is ambiguous.
 2. Run axes in order: index → doc → language → code (skip code if no repo).
 3. Produce a single findings list: blockers / majors / minors.
 4. Open or update `GAPS.md` rows for unresolved items.
 5. Do not invent missing domain content to “complete” the audit.
+6. For follow-up prioritization of findings with the PM, use `clarify-with-pm`.
 
 ## Do not
 

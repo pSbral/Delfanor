@@ -4,7 +4,7 @@
 
 ## Steps
 
-1. Confirm the decision is actually closed by the PM.
+1. Confirm the decision is actually closed by the PM (use `clarify-with-pm` if options are still open).
 2. Copy `documentation/decisions/_template.md` → `documentation/decisions/NNNN-slug.md` (next free number).
 3. Fill: Status, Context, Options considered, Decision, Consequences, Supersedes (if any).
 4. Keep it short; one decision per file.

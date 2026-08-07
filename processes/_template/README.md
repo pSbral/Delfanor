@@ -4,6 +4,12 @@
 
 **Parent:** [../README.md](../README.md)
 
+## Inventory
+
+| Entry | When to open | Path |
+| --- | --- | --- |
+| — | Leaf process template; no sub-entries | — |
+
 ## When to use
 
 - …
@@ -25,3 +31,7 @@
 ## Gaps
 
 -  
+
+## Children
+
+None (leaf template).

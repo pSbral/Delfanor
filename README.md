@@ -23,7 +23,7 @@ This repository is the **library agents use to stay aligned** with the PM (produ
    - **Domain terminology is unrestricted** (English, Portuguese, or other languages as the domain requires). Do not translate established domain terms only for natural-language consistency.
 4. **Pull, don't push.** Load the smallest context: this README → Process Caller → skills index → only the docs/skills needed for the classified route.
 5. **Closed scope.** Do not reopen closed decisions or expand task scope without explicit PM reopening.
-6. **One question per topic** only for genuine ambiguity.
+6. **PM clarification default (mandatory):** whenever you need to close a pending item, align requirements, prioritize, or resolve genuine ambiguity with the PM, use skill [`skills/clarify-with-pm/SKILL.md`](skills/clarify-with-pm/SKILL.md): **one topic per block**, **multiple-choice options with suggestions** (mark a recommended option when justified), and **always a free-text “Outra / resposta livre”** path. Prefer the runtime multi-choice UI when available; otherwise use the skill’s markdown format. Do not dump multi-topic open questionnaires.
 7. **Raw demand intake does not auto-create tasks.** Use `validate-task` only when the PM asks (or after explicit validation path).
 8. **Structural tree changes** always end with `maintain-repo-index`.
 9. **Git policy:**
@@ -92,3 +92,4 @@ Every indexed folder `README.md` after the title:
 - [ ] Structural change ends with maintain-repo-index  
 - [ ] Never invent / no credentials / closed scope present here  
 - [ ] Handoff updates `GAPS.md` and leaves resume instructions on disk  
+- [ ] PM clarification uses multi-choice + free-text (`clarify-with-pm`)  

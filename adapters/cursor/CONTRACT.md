@@ -15,12 +15,14 @@
 7. Git: commit OK on this context repo (`develop`); external code → branch + commit; no force-push to product defaults.  
 8. Structural edits → `maintain-repo-index`.  
 9. Language: agent machinery in **English**; domain docs in **Portuguese**; PM chat in standard Brazilian Portuguese (`você`, correct register).  
+10. PM clarification / requirements alignment → skill `clarify-with-pm` (multi-choice suggestions + free-text; one topic per block). Use runtime multi-choice UI when available.  
 
 ## Must not
 
 - Copy or fork the Process Caller route table into rules/AGENTS fragments.  
 - Auto-create tasks from raw paste.  
 - Infer products/rules from deleted trees, old remotes, or non-canonical history.
+- Dump open multi-topic questionnaires when structured multi-choice is possible.
 
 ## Optional Cursor wiring
 

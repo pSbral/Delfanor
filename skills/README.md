@@ -10,6 +10,7 @@
 
 | Entry | When to open | Path |
 | --- | --- | --- |
+| clarify-with-pm | Default PM clarification / requirements alignment | [clarify-with-pm/SKILL.md](clarify-with-pm/SKILL.md) |
 | maintain-repo-index | Any structural / index / adapter change | [maintain-repo-index/SKILL.md](maintain-repo-index/SKILL.md) |
 | apply-ubiquitous-language | Glossary or domain term consistency | [apply-ubiquitous-language/SKILL.md](apply-ubiquitous-language/SKILL.md) |
 | validate-task | PM-approved intake of raw demand → task overview | [validate-task/SKILL.md](validate-task/SKILL.md) |
@@ -27,6 +28,7 @@
 
 ## Children
 
+- [clarify-with-pm/](clarify-with-pm/)
 - [maintain-repo-index/](maintain-repo-index/)
 - [apply-ubiquitous-language/](apply-ubiquitous-language/)
 - [validate-task/](validate-task/)

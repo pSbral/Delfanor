@@ -1,6 +1,6 @@
 # Activities (work memory)
 
-**Role:** Working memory for tasks — separate from stable `documentation/` reality.
+**Role:** Working memory for tasks — separate from `documentation/` (reality + non-canonical drafts).
 
 **Parent:** [../README.md](../README.md)
 

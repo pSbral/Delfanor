@@ -1,6 +1,6 @@
 # Documentation
 
-**Role:** Reality — how the Delfanor ecosystem **is** (rules, systems, services, products, decisions, language). Not agent procedure (that is `processes/` + `skills/`).
+**Role:** Ecosystem documentation: **reality** (rules, systems, services, products, decisions, language) plus **non-canonical intake drafts** under `rascunhos/`. Not agent procedure (`processes/` + `skills/`).
 
 **Language:** Domain content here is written in **Brazilian Portuguese (PT-BR)** (terminology unrestricted). Agent machinery stays English elsewhere.
 
@@ -16,11 +16,12 @@
 | Products inventory | Games/tools/repos | [products/README.md](products/README.md) |
 | Decision log | Closed structural choices | [decisions/README.md](decisions/README.md) |
 | Ubiquitous language | Glossary | [ubiquitous-language/README.md](ubiquitous-language/README.md) |
+| Intake drafts (not reality) | PM requirement sketches before promotion | [rascunhos/README.md](rascunhos/README.md) |
 
 ## Gaps
 
-- All domain folders start empty of content (see root [GAPS.md](../GAPS.md)).
-- Do not invent rules, services, or product entries.
+- Canonical domain folders still empty of content (see root [GAPS.md](../GAPS.md)).
+- Rascunhos are **not** product/service/rules inventory: do not invent or promote from drafts (GAP-010).
 
 ## Children
 
@@ -30,3 +31,4 @@
 - [products/](products/)
 - [decisions/](decisions/)
 - [ubiquitous-language/](ubiquitous-language/)
+- [rascunhos/](rascunhos/)

@@ -50,7 +50,7 @@ This repository is the **library agents use to stay aligned** with the PM (produ
 | Agents index | Need a specialist role | [`agents/README.md`](agents/README.md) |
 | Skills index | After route classification | [`skills/README.md`](skills/README.md) |
 | Processes | Prescriptive how-to for work | [`processes/README.md`](processes/README.md) |
-| Documentation (reality) | Facts: rules, systems, services, products, decisions, glossary | [`documentation/README.md`](documentation/README.md) |
+| Documentation | Reality (rules, systems, services, products, decisions, glossary) plus non-canonical drafts | [`documentation/README.md`](documentation/README.md) |
 | Work memory (tasks) | Active / done tasks | [`.activities/README.md`](.activities/README.md) |
 | Pending gaps ledger | Resume work; open unknowns | [`GAPS.md`](GAPS.md) |
 | IDE adapters | Cursor / other thin entrypoints | [`adapters/README.md`](adapters/README.md) |
@@ -60,6 +60,7 @@ This repository is the **library agents use to stay aligned** with the PM (produ
 
 - Product/repo inventory and external remotes allowlist: **empty by PM confirmation** (2026-08-07); re-open when first product exists. See [`GAPS.md`](GAPS.md).
 - Canonical rules, systems, services, glossary, and decisions still empty until the PM fills them.
+- Non-canonical intake draft in progress (GAP-010); not a registered product.
 - No production/incident routes in MVP.
 - No stack/CI/deploy facts until product entries exist (code lives elsewhere).
 

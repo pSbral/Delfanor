@@ -20,7 +20,7 @@
 | --- | --- | --- | --- | --- | --- |
 | GAP-002 | rules | Conteúdo de regras canônicas ainda ausente (padrão um-arquivo-por-área já definido) | open | PM escolhe a 1ª área e fornece fatos; copiar `_template.md` | `documentation/rules/` |
 | GAP-003 | systems | Sistemas do universo/mecânicas sem conteúdo | open | Preencher à medida que o design fechar | `documentation/systems/` |
-| GAP-004 | services | Serviços compartilhados (ex. API Jogador) não inventariados | open | Onboard quando houver contrato real | `documentation/services/` |
+| GAP-004 | services | Serviços compartilhados (ex. API Jogador) não inventariados | open | Onboard só com contrato real; intenção em rascunho (GAP-010) | `documentation/services/` |
 | GAP-005 | glossary | Linguagem ubíqua / glossário vazio | open | Termos só com definição PM-aprovada | `documentation/ubiquitous-language/` |
 | GAP-007 | incidents | Rotas de incidente/produção fora do MVP | open | Só quando houver operação real | Process Caller gap |
 | GAP-008 | stack | Stack/CI/deploy não vivem neste repo; fatos por produto ausentes | open | Quando existir product entry | `documentation/products/` |
@@ -30,7 +30,7 @@
 
 | ID | Area | Description | Status | Next action | Related path |
 | --- | --- | --- | --- | --- | --- |
-| — | — | Nenhuma | — | — | — |
+| GAP-010 | rascunhos | Visão de sessões RPG, portais mestre/jogador e API de dados do jogador — rascunho não canônico; PM pausou após visão parcial do `delfanor-portal-player` | in_progress | Retomar checklist `INFORMAÇÃO AUSENTE` no rascunho via `clarify-with-pm` (um tópico). Não onboard de produto; não promover a rules/glossary sem o PM | `documentation/rascunhos/visao-sessoes-portais-api-jogador.md` |
 
 ## Blocked
 
@@ -42,11 +42,11 @@
 
 | Field | Value |
 | --- | --- |
-| When | 2026-08-07 — PT-BR contract + full push |
+| When | 2026-08-11 — audit-alignment + persist rascunho na `develop` |
 | Branch | `develop` |
-| Active task | none |
-| Summary | Feedback applied: EN agent machinery; PT-BR domain+chat; no ti; no PT-PT leakage; clarify-with-pm default; process pm-communication; DECISION-0001/0002; rules structure only; products/remotes empty. GAP-002…005,007…009 open. |
-| Resume with | README → Process Caller → GAPS.md → clarify-with-pm next domain fill |
+| Active task | none (intake não virou tarefa) |
+| Summary | Auditoria índice/doc/idioma no repo de contexto (sem eixo de código). Correções: `documentation/` deixa explícito que rascunhos não são realidade; handoff sem “RGB”. Rascunho GAP-010 permanece não canônico. Visão parcial de `delfanor-portal-player` (chat, rolagem, ficha ≠ aparência, criação nome/raça/vermelho-azul-verde/origem, inventário alterável, nível na ficha). Produtos/serviços/rules não onboarded. |
+| Resume with | README → Process Caller → `GAPS.md` (GAP-010) → `documentation/rascunhos/visao-sessoes-portais-api-jogador.md` (INFORMAÇÃO AUSENTE) → `clarify-with-pm` um tópico. Não inventar. |
 
 ## Archive (done)
 
